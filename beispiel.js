@@ -10,12 +10,12 @@ define(['pipAPI', 'https://jamaiat.github.io/st-iat-skepticism/qstiat6.js'], fun
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{image : 'UAM1.png', css: {width: '20px', height: '20px'}}, 
-    			{image : 'UAM2.png', css: {width: '20px', height: '20px'}}, 
-    			{image : 'UAM3.png', css: {width: '20px', height: '20px'}}, 
-    			{image : 'UAM4.png', css: {width: '20px', height: '20px'}}, 
-    			{image : 'UAM5.png', css: {width: '20px', height: '20px'}}, 
-    			{image : 'UAM6.png', css: {width: '20px', height: '20px'}}
+    		    	{image : 'UAM1.png', css: {class: 'small-image'}}, 
+		            {image : 'UAM2.png', css: {class: 'small-image'}}, 
+		            {image : 'UAM3.png', css: {class: 'small-image'}}, 
+		            {image : 'UAM4.png', css: {class: 'small-image'}}, 
+		            {image : 'UAM5.png', css: {class: 'small-image'}}, 
+		            {image : 'UAM6.png', css: {class: 'small-image'}}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
