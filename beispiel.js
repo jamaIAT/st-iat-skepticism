@@ -65,3 +65,10 @@ define(['pipAPI', 'https://jamaiat.github.io/st-iat-skepticism/qstiat6.js'], fun
   }}
   );
   });
+document.addEventListener('DOMContentLoaded', function() {
+   document.querySelectorAll('img').forEach(img => {
+      img.style.width = '20px';
+      img.style.height = '20px';
+   });
+});
+
