@@ -3,9 +3,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Black people', //Will appear in the data.
+		    name : 'Urban Air Mobility', //Will appear in the data.
 		    title : {
-		      media : {word : 'Black people'}, //Name of the category presented in the task.
+		      media : {word : 'Urban Air Mobility'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
@@ -30,12 +30,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
-				{word: 'Pain'},
-				{word: 'Poison'},
-				{word: 'Grief'}
+				{word: 'Uncertainty'},
+				{word: 'Risky'},
+				{word: 'Dangerous'},
+				{word: 'Distrust'},
+				{word: 'Harmful'},
+				{word: 'Unsafe'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -49,12 +49,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Paradise'},
-				{word: 'Pleasure'},
-				{word: 'Cheer'},
-				{word: 'Wonderful'},
-				{word: 'Splendid'},
-				{word: 'Love'}
+				{word: 'Safe'},
+				{word: 'Reliable'},
+				{word: 'Trustworthy'},
+				{word: 'Good'},
+				{word: 'Beneficial'},
+				{word: 'Favorable'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
