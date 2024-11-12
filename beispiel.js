@@ -23,7 +23,7 @@ define(['pipAPI', 'https://jamaiat.github.io/st-iat-skepticism/qstiat6.js'], fun
 
   		attribute1 : 
 			{
-			name : 'Unpleasant', //Attribute label
+			name : 'Negative', //Attribute label
 			title : {
 				media : {word : 'Negative'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
@@ -42,7 +42,7 @@ define(['pipAPI', 'https://jamaiat.github.io/st-iat-skepticism/qstiat6.js'], fun
 			},
 		attribute2 : 
 			{
-			name : 'Pleasant', //Attribute label
+			name : 'Positive', //Attribute label
 			title : {
 				media : {word : 'Positive'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
