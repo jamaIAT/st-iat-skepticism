@@ -858,6 +858,14 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			}
 		});
 
+		// Füge diesen Code am Ende deines Haupt-JavaScript-Skripts ein
+document.addEventListener('DOMContentLoaded', function() {
+   document.querySelectorAll('img').forEach(img => {
+      img.style.width = '20px';
+      img.style.height = '20px';
+   });
+});
+
 		return API.script;
 	}
 	
